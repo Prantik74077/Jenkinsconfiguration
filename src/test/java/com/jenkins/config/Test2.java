@@ -1,6 +1,5 @@
 package com.jenkins.config;
 
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Test2 
@@ -8,8 +7,7 @@ public class Test2
 	 @Test
 	 public void secondtest()
 	 {
-		Reporter.log("welcome",true);
-		Reporter.log("home",true);
+		System.out.println("hello");
 	 }
     
 }
