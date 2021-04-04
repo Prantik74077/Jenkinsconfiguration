@@ -1,9 +1,14 @@
 package com.jenkins.config;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
 public class Test1 
 {
-    public static void main(String[] args) 
+    @Test
+    public void firsttest()
     {
-		System.out.println("hi");
+		Reporter.log("hi",true);
+		Reporter.log("hello",true);
 	} 
 }
