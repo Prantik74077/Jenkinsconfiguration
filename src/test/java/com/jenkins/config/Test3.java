@@ -1,5 +1,6 @@
 package com.jenkins.config;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Test3 
@@ -7,6 +8,6 @@ public class Test3
      @Test
      public void thirdtest()
      {
-    	 System.out.println("welcome to bangalore");
+    	 Reporter.log("welcome to bangalore",true);
      }
 }
